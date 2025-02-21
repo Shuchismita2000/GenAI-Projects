@@ -180,5 +180,7 @@ This chatbot is great if users **only need quick book recommendations**. It does
 ❌ **More computationally expensive** (as it makes dynamic queries to Ollama).
 
 #### **Reasoning Behind the Advanced Interaction**
-![Demo](https://drive.google.com/file/d/1x2wLQAsEhFDRkaUewwkKEc8zUaaDeAI2/view?usp=sharing)
+
+[Watch the Demo](https://drive.google.com/file/d/1x2wLQAsEhFDRkaUewwkKEc8zUaaDeAI2/view?usp=sharing)
+
 This chatbot is ideal for users who want **an AI book assistant** that goes beyond recommendations, **engaging in meaningful book discussions**.
