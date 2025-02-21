@@ -140,11 +140,13 @@ The RAG system will:
 - **Displays recommendations** without further conversation handling.
 
 📌 **Strengths:** 
+
 ✅ **Faster response time** since it retrieves books and sends them directly to Ollama.  
 ✅ **Simple and efficient** for users who just want book suggestions.  
 ✅ **Less processing overhead** (no complex chat history management).
 
 📌 **Limitations:** 
+
 ❌ **No query classification** – does not differentiate between types of book-related queries.  
 ❌ **No conversational continuity** – every response is independent, making it less interactive.  
 ❌ **No fallback responses** – if no books are found, it just states that.
@@ -164,7 +166,8 @@ This chatbot is great if users **only need quick book recommendations**. It does
 - **Enhances conversational experience** by integrating previous chat history into responses.
 - **Generates more dynamic AI responses** by passing structured book recommendations into Ollama.
 
-📌 **Strengths:** 
+📌 **Strengths:**
+
 ✅ **Engages in discussions** instead of just listing books.  
 ✅ **Understands different query types** (not just book recommendations).  
 ✅ **Uses chat history** to improve **conversation flow**.  
@@ -172,6 +175,7 @@ This chatbot is great if users **only need quick book recommendations**. It does
 ✅ **Handles alternative responses** if no relevant books are found.
 
 📌 **Limitations:** 
+
 ❌ **Slightly slower response time** due to query classification and chat history integration.  
 ❌ **More computationally expensive** (as it makes dynamic queries to Ollama).
 
