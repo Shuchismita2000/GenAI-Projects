@@ -1,0 +1,234 @@
+Customer ID,Name,Age,Gender,Location,Skin Type,Hair Type,Purchase Frequency,Preferred Category,Average Spend (INR)
+C001,Faris Chaudhari,50,Male,Chennai,Oily,Wavy,Weekly,Skincare,1058
+C002,Jagrati Nori,56,Female,Bangalore,Combination,Bald,Weekly,Hair Care,1410
+C003,Anjali Talwar,41,Male,Mumbai,Oily,Bald,Bi-Monthly,Skincare,1436
+C004,Jairaj Gill,21,Other,Delhi,Oily,Curly,Monthly,Skincare,1463
+C005,Zehaan Varughese,44,Other,Mumbai,Combination,Wavy,Monthly,Body Care,1982
+C006,Jonathan Choudhury,32,Male,Delhi,Oily,Wavy,Occasionally,Hair Care,1934
+C007,Xiti Singhal,51,Female,Mumbai,Oily,Wavy,Bi-Monthly,Hair Care,1884
+C008,Anamika Shetty,36,Other,Pune,Oily,Bald,Bi-Monthly,Hair Care,1378
+C009,Jai Datta,33,Male,Bangalore,Combination,Wavy,Occasionally,Body Care,1023
+C010,Dayita Prakash,60,Other,Bangalore,Oily,Straight,Weekly,Skincare,1805
+C011,Indrajit Bhandari,49,Other,Pune,Oily,Straight,Weekly,Body Care,951
+C012,Niharika Virk,26,Female,Chennai,Combination,Bald,Occasionally,Skincare,1841
+C013,Bimala Banerjee,30,Female,Bangalore,Oily,Bald,Monthly,Body Care,822
+C014,Mugdha Dhingra,52,Female,Bangalore,Oily,Curly,Occasionally,Body Care,1529
+C015,Xalak Chaudhry,43,Female,Pune,Oily,Straight,Bi-Monthly,Hair Care,858
+C016,Leela Kashyap,28,Female,Bangalore,Combination,Straight,Bi-Monthly,Skincare,1629
+C017,George Nath,53,Male,Bangalore,Dry,Straight,Bi-Monthly,Skincare,1315
+C018,Indira Mukhopadhyay,49,Other,Bangalore,Oily,Curly,Occasionally,Skincare,1344
+C019,Krishna Patla,51,Other,Mumbai,Normal,Wavy,Weekly,Hair Care,1278
+C020,Baghyawati Tandon,35,Male,Mumbai,Dry,Bald,Occasionally,Skincare,1463
+C021,Robert Sem,20,Male,Delhi,Dry,Bald,Occasionally,Hair Care,1931
+C022,Fiyaz Singhal,22,Other,Delhi,Normal,Wavy,Occasionally,Hair Care,1524
+C023,Vedant Raju,31,Female,Delhi,Dry,Curly,Weekly,Skincare,1053
+C024,Luke Barman,43,Female,Delhi,Combination,Straight,Bi-Monthly,Hair Care,1370
+C025,Finn Dhingra,50,Male,Chennai,Combination,Wavy,Weekly,Skincare,814
+C026,Charita Mander,57,Female,Pune,Normal,Bald,Occasionally,Body Care,894
+C027,Advika Gara,34,Other,Delhi,Dry,Bald,Monthly,Skincare,1109
+C028,Yochana Amble,22,Male,Bangalore,Normal,Curly,Weekly,Hair Care,1820
+C029,Samesh Bora,56,Male,Bangalore,Normal,Bald,Bi-Monthly,Hair Care,1570
+C030,Lopa Sibal,36,Female,Delhi,Normal,Curly,Occasionally,Hair Care,1150
+C031,Anita Gaba,19,Female,Delhi,Normal,Straight,Weekly,Skincare,1172
+C032,Zaitra Radhakrishnan,41,Other,Pune,Normal,Bald,Weekly,Skincare,1775
+C033,William Jhaveri,26,Female,Mumbai,Oily,Wavy,Occasionally,Hair Care,1064
+C034,Anusha Bail,40,Female,Bangalore,Combination,Wavy,Weekly,Skincare,1493
+C035,Parth Hegde,57,Female,Pune,Dry,Bald,Occasionally,Skincare,1872
+C036,Bhavna Radhakrishnan,21,Male,Pune,Dry,Bald,Occasionally,Skincare,1358
+C037,Triveni Sharma,31,Female,Chennai,Dry,Straight,Bi-Monthly,Hair Care,1946
+C038,Leena Ganesan,31,Other,Chennai,Normal,Straight,Weekly,Body Care,1877
+C039,Kashish Sane,36,Other,Pune,Combination,Wavy,Bi-Monthly,Body Care,1176
+C040,Matthew Halder,23,Male,Mumbai,Dry,Bald,Monthly,Body Care,1340
+C041,Ayaan Dayal,35,Female,Bangalore,Dry,Curly,Weekly,Hair Care,849
+C042,Qarin Babu,22,Male,Delhi,Dry,Bald,Bi-Monthly,Body Care,1643
+C043,Barkha Muni,22,Male,Chennai,Dry,Curly,Occasionally,Hair Care,1819
+C044,Christopher Vyas,37,Female,Bangalore,Normal,Curly,Occasionally,Hair Care,1220
+C045,Gunbir Chauhan,47,Female,Chennai,Dry,Wavy,Monthly,Skincare,1899
+C046,Suhani Mangal,37,Male,Bangalore,Dry,Straight,Occasionally,Skincare,1822
+C047,Priya Gola,37,Female,Bangalore,Combination,Wavy,Weekly,Skincare,838
+C048,Orinder Gulati,47,Female,Pune,Dry,Straight,Bi-Monthly,Body Care,1767
+C049,Girindra Rastogi,45,Other,Pune,Oily,Wavy,Weekly,Body Care,1916
+C050,Harinakshi Cherian,46,Male,Mumbai,Normal,Curly,Weekly,Skincare,1447
+C051,Chaaya Saxena,31,Other,Delhi,Dry,Bald,Weekly,Skincare,1540
+C052,Devika Mandal,43,Female,Pune,Combination,Wavy,Weekly,Skincare,832
+C053,Ishanvi Barad,24,Male,Bangalore,Combination,Wavy,Monthly,Body Care,1387
+C054,Imaran Chad,50,Female,Bangalore,Normal,Bald,Bi-Monthly,Hair Care,1785
+C055,Bhavya Dey,51,Male,Bangalore,Normal,Curly,Bi-Monthly,Body Care,1937
+C056,Quincy Kuruvilla,37,Female,Pune,Oily,Bald,Bi-Monthly,Body Care,1383
+C057,Faris Memon,35,Male,Bangalore,Dry,Bald,Monthly,Hair Care,1499
+C058,Ganga Bahl,56,Other,Bangalore,Combination,Bald,Weekly,Hair Care,819
+C059,Chanchal Bhatt,19,Male,Mumbai,Normal,Wavy,Monthly,Body Care,1317
+C060,Yahvi Ganesan,23,Male,Pune,Normal,Wavy,Occasionally,Skincare,1297
+C061,Matthew Kunda,29,Female,Pune,Normal,Bald,Occasionally,Skincare,1293
+C062,Kamala Prabhakar,24,Male,Delhi,Combination,Bald,Occasionally,Hair Care,1091
+C063,Imaran Shanker,19,Female,Pune,Dry,Straight,Weekly,Hair Care,1572
+C064,Manbir Lala,43,Female,Mumbai,Dry,Curly,Weekly,Hair Care,920
+C065,Yashawini Gaba,60,Male,Pune,Oily,Curly,Monthly,Hair Care,1735
+C066,Vaishnavi Bhatt,35,Male,Bangalore,Normal,Curly,Monthly,Body Care,1820
+C067,Lakshmi Bedi,33,Female,Pune,Oily,Wavy,Bi-Monthly,Body Care,1182
+C068,Vivaan Minhas,41,Other,Delhi,Normal,Straight,Monthly,Body Care,1249
+C069,Yug Garg,42,Male,Delhi,Normal,Bald,Monthly,Hair Care,1020
+C070,Sanya Virk,59,Other,Bangalore,Combination,Wavy,Occasionally,Skincare,1610
+C071,Nitara Bhatia,48,Male,Pune,Dry,Wavy,Bi-Monthly,Body Care,1464
+C072,Ranveer Wagle,20,Female,Pune,Dry,Bald,Bi-Monthly,Skincare,1142
+C073,Darpan Sandal,19,Other,Bangalore,Dry,Wavy,Occasionally,Skincare,1765
+C074,Panini Chad,50,Male,Pune,Normal,Wavy,Monthly,Skincare,1224
+C075,Ubika Narain,43,Other,Delhi,Combination,Wavy,Bi-Monthly,Body Care,1994
+C076,Jeremiah Tiwari,41,Male,Pune,Combination,Bald,Weekly,Body Care,1492
+C077,Sara Tella,29,Male,Mumbai,Normal,Straight,Occasionally,Skincare,1214
+C078,Mugdha Khalsa,36,Other,Mumbai,Combination,Straight,Monthly,Hair Care,1937
+C079,Dalbir Sachar,53,Female,Chennai,Dry,Curly,Weekly,Body Care,872
+C080,Frado Hayer,35,Male,Delhi,Combination,Straight,Bi-Monthly,Skincare,911
+C081,Radhika Ravi,31,Other,Pune,Dry,Wavy,Bi-Monthly,Hair Care,1896
+C082,Vansha Trivedi,26,Other,Mumbai,Dry,Curly,Occasionally,Body Care,1700
+C083,Ojasvi Suri,46,Other,Chennai,Dry,Wavy,Weekly,Skincare,958
+C084,Alka Kade,29,Other,Delhi,Dry,Curly,Monthly,Hair Care,1243
+C085,Noah Pingle,46,Male,Delhi,Normal,Wavy,Weekly,Skincare,1530
+C086,Shravya Karpe,21,Male,Mumbai,Dry,Wavy,Weekly,Hair Care,865
+C087,Charvi Borah,33,Female,Chennai,Combination,Wavy,Weekly,Body Care,1038
+C088,Guneet Ben,34,Female,Delhi,Combination,Wavy,Weekly,Hair Care,1641
+C089,Darsh Bir,53,Other,Chennai,Oily,Bald,Occasionally,Hair Care,1333
+C090,Maanav Dasgupta,50,Female,Mumbai,Normal,Wavy,Weekly,Hair Care,1242
+C091,Avni Krish,21,Male,Delhi,Oily,Wavy,Occasionally,Hair Care,1291
+C092,Qadim Ray,57,Other,Pune,Normal,Straight,Weekly,Body Care,1296
+C093,Logan Apte,57,Male,Bangalore,Oily,Straight,Monthly,Skincare,1404
+C094,Aayush Sidhu,32,Other,Mumbai,Oily,Straight,Monthly,Body Care,1391
+C095,Triveni De,28,Other,Pune,Oily,Bald,Weekly,Hair Care,1359
+C096,Maanav Rastogi,58,Other,Pune,Dry,Bald,Bi-Monthly,Skincare,1579
+C097,Siya Basak,28,Male,Delhi,Dry,Curly,Occasionally,Skincare,1194
+C098,Aishani Ranganathan,54,Male,Bangalore,Normal,Wavy,Bi-Monthly,Hair Care,801
+C099,Gaurika Amble,48,Female,Chennai,Normal,Wavy,Weekly,Body Care,1735
+C100,Raagini Nair,57,Male,Pune,Normal,Bald,Weekly,Body Care,900
+C101,Charita Bahl,25,Male,Delhi,Combination,Straight,Monthly,Skincare,1775
+C102,Andrew Konda,21,Female,Pune,Oily,Bald,Occasionally,Body Care,890
+C103,Dalbir Misra,28,Other,Delhi,Normal,Wavy,Weekly,Hair Care,1071
+C104,Chatura Chaudhuri,27,Male,Delhi,Dry,Wavy,Monthly,Hair Care,1134
+C105,Saksham Kuruvilla,38,Male,Mumbai,Normal,Wavy,Occasionally,Body Care,1940
+C106,Timothy Majumdar,57,Female,Pune,Combination,Wavy,Occasionally,Hair Care,1240
+C107,Unni Rajan,52,Female,Delhi,Combination,Straight,Monthly,Body Care,1667
+C108,Ekavir Mammen,37,Female,Chennai,Oily,Wavy,Bi-Monthly,Skincare,856
+C109,Fitan Rai,58,Other,Chennai,Normal,Straight,Monthly,Hair Care,1054
+C110,Megha Iyengar,21,Other,Mumbai,Combination,Curly,Monthly,Body Care,1226
+C111,Yashvi Dixit,30,Other,Pune,Combination,Wavy,Bi-Monthly,Skincare,1443
+C112,Charles Kashyap,47,Other,Bangalore,Combination,Curly,Weekly,Hair Care,1648
+C113,Garima Choudhury,55,Other,Delhi,Oily,Wavy,Monthly,Skincare,1939
+C114,Daksha Sarkar,48,Male,Delhi,Oily,Straight,Weekly,Body Care,1333
+C115,Geetika Cherian,47,Other,Pune,Dry,Straight,Occasionally,Skincare,1534
+C116,Ayaan Kalla,33,Other,Delhi,Dry,Wavy,Monthly,Body Care,1291
+C117,Sneha Aurora,30,Female,Mumbai,Oily,Straight,Monthly,Hair Care,1630
+C118,Bina Jayaraman,49,Female,Chennai,Normal,Curly,Monthly,Skincare,1565
+C119,Isaac Sarkar,51,Other,Bangalore,Dry,Curly,Weekly,Body Care,834
+C120,Leela Nagi,24,Female,Chennai,Dry,Curly,Weekly,Hair Care,1255
+C121,Shravya Saini,20,Other,Pune,Combination,Wavy,Occasionally,Body Care,1744
+C122,Tanish Chanda,50,Female,Bangalore,Dry,Curly,Monthly,Skincare,1526
+C123,Ayush Dayal,30,Other,Bangalore,Oily,Curly,Weekly,Hair Care,843
+C124,Vivaan Char,19,Other,Delhi,Oily,Bald,Bi-Monthly,Skincare,903
+C125,Mason Madan,43,Male,Chennai,Combination,Wavy,Bi-Monthly,Hair Care,1635
+C126,Amruta Rastogi,37,Female,Pune,Combination,Bald,Occasionally,Hair Care,1754
+C127,Arjun Sastry,60,Other,Mumbai,Dry,Curly,Bi-Monthly,Hair Care,1793
+C128,Yachana Sarma,56,Female,Mumbai,Combination,Straight,Monthly,Skincare,960
+C129,Gopal Rama,54,Other,Delhi,Combination,Curly,Occasionally,Hair Care,1179
+C130,Aryan Parekh,24,Male,Pune,Combination,Curly,Weekly,Body Care,1066
+C131,Upma Kalita,39,Female,Bangalore,Dry,Straight,Occasionally,Hair Care,1751
+C132,Bhanumati Kadakia,57,Other,Bangalore,Dry,Curly,Monthly,Hair Care,1818
+C133,Gaurav Jayaraman,41,Male,Pune,Oily,Bald,Bi-Monthly,Hair Care,1747
+C134,Vivaan Kuruvilla,20,Other,Bangalore,Combination,Curly,Weekly,Hair Care,1719
+C135,Darika Jha,49,Other,Mumbai,Combination,Wavy,Monthly,Body Care,1447
+C136,Mahika Shukla,24,Other,Chennai,Combination,Straight,Occasionally,Hair Care,1538
+C137,Praneel Soman,57,Male,Chennai,Combination,Bald,Monthly,Body Care,1631
+C138,Ganga Kohli,36,Male,Mumbai,Combination,Straight,Weekly,Hair Care,865
+C139,Yadavi Kadakia,54,Male,Chennai,Normal,Bald,Weekly,Body Care,1931
+C140,Dalbir Dube,48,Other,Pune,Normal,Straight,Weekly,Hair Care,1916
+C141,Girik Din,29,Male,Pune,Oily,Bald,Weekly,Skincare,1007
+C142,Anusha Trivedi,26,Male,Chennai,Oily,Bald,Occasionally,Hair Care,1106
+C143,Hamsini Pingle,53,Other,Pune,Normal,Curly,Bi-Monthly,Skincare,837
+C144,Nandini Merchant,51,Other,Delhi,Oily,Straight,Monthly,Hair Care,966
+C145,Jhalak Chana,54,Other,Pune,Combination,Straight,Weekly,Skincare,1975
+C146,Pranit Karan,38,Male,Bangalore,Combination,Wavy,Weekly,Hair Care,1805
+C147,Zarna Sibal,41,Female,Mumbai,Dry,Wavy,Monthly,Hair Care,1133
+C148,Yauvani Kurian,37,Other,Mumbai,Dry,Straight,Monthly,Body Care,1282
+C149,Jeremiah Mahajan,49,Other,Delhi,Normal,Straight,Weekly,Body Care,848
+C150,Yug Devi,42,Other,Delhi,Combination,Bald,Occasionally,Body Care,1845
+C151,Dev Dave,25,Male,Bangalore,Normal,Wavy,Bi-Monthly,Skincare,884
+C152,Aachal Sharma,31,Female,Chennai,Dry,Curly,Monthly,Skincare,1495
+C153,Adweta Saran,21,Other,Chennai,Combination,Straight,Monthly,Body Care,1094
+C154,Anirudh Bal,24,Female,Mumbai,Dry,Wavy,Monthly,Body Care,1804
+C155,Vaishnavi Ahluwalia,46,Male,Bangalore,Combination,Wavy,Occasionally,Skincare,1431
+C156,Jacob Sani,43,Female,Mumbai,Combination,Straight,Monthly,Skincare,864
+C157,Balhaar Devan,46,Male,Pune,Oily,Curly,Monthly,Skincare,1874
+C158,Balvan Yadav,58,Other,Pune,Normal,Bald,Occasionally,Body Care,1935
+C159,David Sathe,34,Female,Bangalore,Oily,Bald,Weekly,Body Care,1432
+C160,Barkha Kar,32,Other,Mumbai,Oily,Straight,Weekly,Body Care,1543
+C161,Fiyaz Wali,50,Female,Delhi,Oily,Straight,Occasionally,Skincare,1882
+C162,Vritti Kari,45,Male,Bangalore,Normal,Curly,Bi-Monthly,Body Care,1201
+C163,Chaaya Khurana,60,Other,Delhi,Combination,Curly,Bi-Monthly,Body Care,847
+C164,Upasna Mand,52,Female,Chennai,Dry,Wavy,Monthly,Body Care,1790
+C165,Shaurya Ghosh,27,Other,Mumbai,Normal,Straight,Monthly,Skincare,1731
+C166,Raksha Borde,21,Female,Delhi,Normal,Curly,Occasionally,Skincare,1128
+C167,Samesh Bora,25,Female,Delhi,Normal,Curly,Monthly,Body Care,1311
+C168,Simon Chahal,45,Other,Mumbai,Oily,Curly,Occasionally,Skincare,1919
+C169,Advay Sagar,31,Male,Pune,Oily,Wavy,Weekly,Body Care,1800
+C170,Yochana Kara,28,Female,Mumbai,Combination,Curly,Bi-Monthly,Skincare,1548
+C171,Rishi Dada,33,Female,Delhi,Dry,Bald,Weekly,Skincare,1558
+C172,Atharv Sawhney,18,Male,Bangalore,Combination,Bald,Weekly,Body Care,1258
+C173,Falak Rout,24,Male,Bangalore,Normal,Wavy,Bi-Monthly,Hair Care,1219
+C174,Vedant Pall,37,Male,Pune,Normal,Wavy,Weekly,Hair Care,877
+C175,Bhavini Garde,52,Male,Pune,Normal,Bald,Weekly,Body Care,1620
+C176,Krish Karan,40,Male,Bangalore,Normal,Curly,Occasionally,Body Care,1211
+C177,Nathan Mand,32,Male,Mumbai,Combination,Wavy,Monthly,Hair Care,1957
+C178,Pratyush Hayer,29,Other,Bangalore,Dry,Curly,Occasionally,Skincare,1636
+C179,Jackson Kalla,18,Other,Delhi,Dry,Bald,Occasionally,Hair Care,890
+C180,Janya Gokhale,32,Female,Chennai,Combination,Curly,Occasionally,Hair Care,1343
+C181,Jacob Boase,47,Male,Mumbai,Dry,Straight,Monthly,Skincare,845
+C182,Samesh Solanki,50,Female,Bangalore,Normal,Wavy,Monthly,Hair Care,1811
+C183,Arya Tiwari,28,Female,Mumbai,Combination,Curly,Occasionally,Skincare,1848
+C184,Advaith Banik,44,Female,Pune,Combination,Curly,Bi-Monthly,Body Care,1876
+C185,Zayan Randhawa,41,Other,Chennai,Oily,Straight,Monthly,Hair Care,1778
+C186,Saumya Bhattacharyya,41,Female,Bangalore,Combination,Straight,Bi-Monthly,Body Care,1993
+C187,Jalsa Sur,40,Female,Delhi,Oily,Curly,Weekly,Skincare,1213
+C188,Oni Suresh,38,Other,Delhi,Normal,Straight,Occasionally,Body Care,1911
+C189,Bishakha Banik,39,Female,Pune,Combination,Straight,Occasionally,Hair Care,1258
+C190,Prisha Basak,28,Male,Delhi,Dry,Straight,Weekly,Skincare,1417
+C191,Gautami Sani,24,Female,Bangalore,Oily,Straight,Weekly,Body Care,1395
+C192,Ronith Raja,18,Other,Chennai,Dry,Curly,Bi-Monthly,Hair Care,1868
+C193,Rohan Kala,23,Female,Bangalore,Normal,Bald,Bi-Monthly,Hair Care,1220
+C194,Sai Shetty,27,Female,Bangalore,Normal,Wavy,Occasionally,Hair Care,976
+C195,Sara Rastogi,28,Female,Chennai,Dry,Bald,Occasionally,Body Care,1400
+C196,Samuel Basak,26,Other,Chennai,Normal,Bald,Occasionally,Hair Care,1446
+C197,Meghana Thakur,44,Other,Mumbai,Oily,Curly,Weekly,Skincare,1159
+C198,Turvi Tandon,43,Male,Delhi,Normal,Wavy,Occasionally,Body Care,1521
+C199,Akshay Nadig,36,Male,Pune,Dry,Bald,Occasionally,Skincare,870
+C200,Aarna Rege,21,Other,Chennai,Normal,Curly,Weekly,Body Care,1026
+C201,Luke Ravi,56,Female,Pune,Oily,Straight,Monthly,Hair Care,1475
+C202,Aahana Dass,60,Male,Bangalore,Normal,Straight,Monthly,Body Care,1581
+C203,Bhanumati Muni,57,Male,Bangalore,Oily,Bald,Monthly,Hair Care,1198
+C204,Gaurika Bobal,45,Female,Bangalore,Combination,Curly,Bi-Monthly,Skincare,1669
+C205,Rehaan Bali,39,Female,Mumbai,Combination,Curly,Weekly,Hair Care,1601
+C206,Akshay Pall,43,Other,Bangalore,Normal,Straight,Occasionally,Body Care,1874
+C207,Tanmayi Issac,57,Other,Chennai,Oily,Straight,Monthly,Body Care,893
+C208,Bhavna Doctor,55,Female,Bangalore,Combination,Curly,Occasionally,Hair Care,904
+C209,Imaran Sathe,52,Female,Chennai,Combination,Wavy,Weekly,Skincare,1184
+C210,Abha Uppal,44,Female,Chennai,Oily,Straight,Bi-Monthly,Skincare,1864
+C211,Aarini Swaminathan,39,Female,Pune,Normal,Straight,Bi-Monthly,Hair Care,1031
+C212,Yatin Shukla,45,Male,Bangalore,Combination,Bald,Weekly,Hair Care,874
+C213,Triveni Borra,51,Male,Pune,Dry,Bald,Weekly,Skincare,1029
+C214,Januja Master,58,Male,Mumbai,Combination,Curly,Occasionally,Hair Care,1074
+C215,Vedant Jaggi,49,Male,Pune,Dry,Bald,Monthly,Body Care,1496
+C216,Dev Subramaniam,52,Other,Delhi,Dry,Straight,Monthly,Body Care,1022
+C217,Aadhya Goel,48,Male,Pune,Oily,Bald,Bi-Monthly,Hair Care,1542
+C218,Ikbal Mander,37,Male,Pune,Dry,Curly,Occasionally,Hair Care,1981
+C219,Jacob Soni,36,Female,Pune,Oily,Wavy,Weekly,Body Care,1159
+C220,Gautami Raval,20,Male,Mumbai,Combination,Curly,Bi-Monthly,Skincare,1014
+C221,Falguni Gala,41,Male,Mumbai,Normal,Straight,Occasionally,Hair Care,1833
+C222,Xalak Varughese,48,Female,Mumbai,Oily,Wavy,Occasionally,Skincare,1755
+C223,Yutika Mishra,34,Female,Pune,Combination,Straight,Bi-Monthly,Body Care,1558
+C224,Lila Dada,42,Female,Bangalore,Combination,Wavy,Bi-Monthly,Skincare,1784
+C225,Yatan Reddy,31,Female,Bangalore,Normal,Wavy,Weekly,Hair Care,1104
+C226,Sathvik Ramanathan,52,Other,Chennai,Normal,Bald,Monthly,Hair Care,1452
+C227,Atharv Prabhu,55,Male,Delhi,Normal,Curly,Monthly,Skincare,1855
+C228,Bina Desai,43,Male,Mumbai,Combination,Bald,Monthly,Body Care,1458
+C229,Veer Kulkarni,30,Female,Pune,Combination,Bald,Monthly,Body Care,1986
+C230,Unnati Chand,46,Other,Chennai,Oily,Straight,Monthly,Body Care,816
+C231,Mohammed Bumb,29,Male,Mumbai,Dry,Bald,Weekly,Body Care,1272
+C232,Ojasvi Shanker,48,Other,Chennai,Oily,Wavy,Monthly,Body Care,1003
+C233,Abeer Vaidya,30,Male,Chennai,Oily,Bald,Monthly,Hair Care,877

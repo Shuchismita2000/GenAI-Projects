@@ -1,0 +1,16 @@
+﻿Warehouse ID,Region,City,Product ID,Product Name,Current Stock,Minimum Stock Level,Maximum Stock Level,Reorder Level,Last Restock Date,Days Since Last Restock,Restock Frequency (Days)
+W001,North India,Delhi,1001,Mamaearth Onion Hair Oil,500,300,1000,200,10-04-2023,8,30
+W001,North India,Delhi,1002,Mamaearth Vitamin C Face Cream,400,200,800,150,05-04-2023,13,45
+W001,North India,Delhi,1005,Mamaearth Anti-Hair Fall Shampoo,300,200,500,100,01-04-2023,16,30
+W002,West India,Mumbai,1001,Mamaearth Onion Hair Oil,700,500,1200,300,06-04-2023,12,30
+W002,West India,Mumbai,1003,Mamaearth Charcoal Body Wash,600,400,1000,250,02-04-2023,14,45
+W002,West India,Mumbai,1006,Mamaearth Ubtan Face Mask,200,150,500,100,03-04-2023,15,45
+W003,South India,Bangalore,1004,Mamaearth Tea Tree Face Wash,500,300,800,200,09-04-2023,9,30
+W003,South India,Bangalore,1005,Mamaearth Anti-Hair Fall Shampoo,600,400,1000,300,05-04-2023,13,30
+W003,South India,Bangalore,1002,Mamaearth Vitamin C Face Cream,800,500,1200,400,07-04-2023,11,45
+W004,East India,Kolkata,1006,Mamaearth Ubtan Face Mask,350,200,800,150,02-04-2023,15,45
+W004,East India,Kolkata,1003,Mamaearth Charcoal Body Wash,400,300,900,200,01-04-2023,16,30
+W004,East India,Kolkata,1005,Mamaearth Anti-Hair Fall Shampoo,450,250,700,150,06-04-2023,12,30
+W005,South India,Chennai,1001,Mamaearth Onion Hair Oil,350,250,700,150,04-04-2023,14,30
+W005,South India,Chennai,1004,Mamaearth Tea Tree Face Wash,300,200,600,150,05-04-2023,13,30
+W005,South India,Chennai,1002,Mamaearth Vitamin C Face Cream,500,300,900,200,08-04-2023,10,45
