@@ -1,20 +1,135 @@
-**Problem Statement: Dynamic Hyper-Personalized Customer Experience Optimization at Scale**
+## **Intelligent Product & Order Support Assistant**
 
-**Context:** Retailers and CPG companies are increasingly investing in AI to offer more personalized experiences to their customers, leveraging massive data across multiple touchpoints (in-store, online, mobile, etc.). However, scaling these personalized experiences across thousands of products, customers, and markets in real-time remains a challenge. The need for a solution that can dynamically optimize customer journeys across various channels and touchpoints is paramount.
+### **Domain**:
 
-**Problem:** Develop an AI-driven agent that can optimize the entire customer journey in real-time, across multiple channels and touchpoints, while providing hyper-personalized recommendations and actions. This should be done by continuously analyzing a multitude of factors, including historical customer behavior, market trends, contextual information (location, time, device), inventory availability, competitor prices, promotions, and social signals.
+**E-commerce (Beauty & Personal Care Products)**
 
-The agent should:
+### **Problem Statement**:
 
-1. **Predict Customer Intent:** Use advanced machine learning techniques (like deep reinforcement learning or multi-armed bandits) to predict the customer's intent at every point of their journey, whether they are browsing for products, researching, or ready to make a purchase.
+> **"Develop an intelligent customer support agent for an e-commerce platform (e.g., Mamaearth) that answers product, order, and promotion-related questions using a fine-tuned LLM, with LangGraph managing conversation memory, product lookup, and feedback-driven learning."**
+
+---
+
+## Use Case Overview:
+
+Customers often ask about:
+
+- Product features, ingredients, and suitability (e.g., “Is this safe for sensitive skin?”)
     
-2. **Dynamic Offer Personalization:** Continuously personalize product recommendations, promotions, and discounts based on the customer’s behavior, preferences, and historical purchase data, while ensuring that the company’s margins and inventory constraints are considered.
+- Order history or refund status
     
-3. **Channel Optimization:** Select and serve the most appropriate content, product offers, or advertisements to the customer based on their current interaction context, optimizing for the channel (website, mobile, in-store experience, etc.) that they are interacting with, and even shifting between channels as necessary to guide them to purchase.
+- Current promotions and sales
     
-4. **Real-Time Inventory & Demand Forecasting Integration:** Integrate with real-time inventory data and demand forecasting systems to ensure that customers receive recommendations based on product availability and future demand predictions, preventing over-recommendation of out-of-stock or under-performing items.
+- Inventory availability
     
-5. **Continuous Learning Loop:** Implement a feedback loop where the system constantly learns from each customer interaction, refining its models in real-time to improve predictions and optimize its decision-making process.
+- Subscription/cancellation
     
 
-**Goal:** To create an AI agent that provides a real-time, seamless, and hyper-personalized customer journey, improving conversion rates, increasing basket size, optimizing inventory management, and providing customers with a better experience across all channels.
+Instead of relying on human agents, this project simulates a **smart, AI-powered assistant** using real-looking data and structure.
+
+---
+
+## Your Data Files as Inputs:
+
+|File|Use|
+|---|---|
+|`customer_purchase_data.csv`|Context for orders, refunds, etc.|
+|`customer_demographic_data_with_real_names.csv`|Personalization (e.g., skin type, gender-based queries)|
+|`mamaearth_products.csv`|Core for product Q&A|
+|`mamaearth_inventory.csv`|To answer "is this in stock?"|
+|`sales_trends_and_promotions.csv`|Surface discounts, upsells|
+|`customer_purchase_data_large.csv`|Use for fine-tuning more robustly|
+
+---
+
+## **LangGraph Use in Flow**:
+
+
+
+`Customer Input →    [Node 1] Intent Classifier (Product Q / Order Q / Promo Q) →    [Node 2] Memory (has this user asked before?) →    [Node 3] Product Lookup or Order Query →    [Node 4] LLM Generates Answer →    [Node 5] Ask for Feedback (Helpful or Not) →    [Node 6] Store poor responses for fine-tuning`
+
+---
+
+##  **Fine-tuned LLM Task**:
+
+- Fine-tune a model (like Mistral or LLaMA) using synthetic customer support dialogues:
+    
+    - **Product FAQ conversations**
+        
+    - **Order status Q&A**
+        
+    - **Refund/cancellation dialogue**
+        
+- Personalize answers using demographic context (e.g., skin type, age, purchase behavior).
+    
+
+---
+
+## Sample Questions the Agent Should Handle:
+
+- “Is this face wash suitable for oily skin?”
+    
+- “When will my shampoo order arrive?”
+    
+- “I applied a coupon but didn’t get a discount.”
+    
+- “Suggest something for dry scalp.”
+    
+- “You didn’t help me. Try again.”
+    
+
+---
+
+## Feedback Loop:
+
+- Collect feedback on answers ("Helpful" / "Not Helpful").
+    
+- If not helpful:
+    
+    - Retry with revised prompt
+        
+    - Route to knowledge base or escalate
+        
+    - Log it for re-finetuning (RLHF-style)
+        
+
+---
+## Project Architecture (Components + Flow)
+```
+                     ┌────────────────────────┐
+                     │   Customer Frontend    │
+                     │  (Streamlit/Gradio UI) │
+                     └────────────┬───────────┘
+                                  │
+                   Customer Input│
+                                  ▼
+                     ┌────────────────────────┐
+                     │   LangGraph Flow       │
+                     └────────────┬───────────┘
+                                  ▼
+                ┌────────────────────────────────┐
+                │     Node 1: Intent Classifier   │ ← Classify into:
+                └────────────┬───────────────────┘     [Product / Order / Promo]
+                             ▼
+         ┌─────────────────────────────┐
+         │ Node 2: Memory & Context    │ ← LangGraph memory
+         └────────────┬────────────────┘
+                      ▼
+          ┌─────────────────────────────┐
+          │ Product Lookup / Order Data │ ← Pulls from CSV or DB
+          └────────────┬────────────────┘
+                       ▼
+            ┌──────────────────────────────┐
+            │ Node 4: LLM Response Generator│ ← Fine-tuned LLM
+            └────────────┬─────────────────┘
+                         ▼
+            ┌──────────────────────────────┐
+            │ Node 5: Feedback Collector   │ ← "Helpful" or not
+            └────────────┬─────────────────┘
+                         ▼
+            ┌──────────────────────────────┐
+            │ Node 6: Log Poor Responses   │ → Used for retraining
+            └──────────────────────────────┘
+
+
+```
